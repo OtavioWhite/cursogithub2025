@@ -83,3 +83,10 @@ git stash
 7. git commit -m "msg"
 8. git status
 9. bolta para o passo 3.
+<<<<<<< HEAD
+=======
+
+atualizado teste main
+atualizado teste teste01.
+atualizando teste02.
+>>>>>>> teste02
