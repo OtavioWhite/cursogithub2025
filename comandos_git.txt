@@ -1,9 +1,77 @@
-git init . -> cria um repo git na pasta atual
-git status > mostra o status do trabalho
-git add > adiciona arquivo para ser comitado
-git commit -m "msg" > faz commit do que estava para ser commitado
-git log > mostra todos os históricos de commit
+📌 Configuração inicial
+git config --global user.name "Seu Nome"
+→ Define seu nome de usuário.
 
+git config --global user.email "seu@email.com"
+→ Define seu e-mail de usuário.
+
+📁 Iniciando e clonando repositórios
+git init
+→ Inicia um novo repositório Git.
+
+git clone <URL>
+→ Clona um repositório remoto.
+
+🔄 Trabalhando com alterações
+git status
+→ Mostra o estado atual do repositório.
+
+git add .
+→ Adiciona todas as alterações ao stage.
+
+git add <arquivo>
+→ Adiciona um arquivo específico.
+
+git commit -m "mensagem"
+→ Cria um commit com a mensagem.
+
+git diff
+→ Mostra diferenças entre arquivos modificados.
+
+🌿 Trabalhando com branches
+git branch
+→ Lista todas as branches.
+
+git branch <nome>
+→ Cria uma nova branch.
+
+git checkout <nome>
+→ Muda para uma branch.
+
+git checkout -b <nome>
+→ Cria e muda para uma nova branch.
+
+git merge <nome-da-branch>
+→ Mescla uma branch na atual.
+
+🚀 Repositório remoto
+git remote add origin <URL>
+→ Adiciona um repositório remoto.
+
+git push -u origin main
+→ Envia a branch main para o repositório remoto.
+
+git push
+→ Envia alterações para o remoto.
+
+git pull
+→ Atualiza o repositório local com o remoto.
+
+git fetch
+→ Busca alterações do repositório remoto sem aplicar.
+
+🧹 Outros comandos úteis
+git log
+→ Exibe o histórico de commits.
+
+git reset --hard
+→ Desfaz todas as mudanças para o último commit.
+
+git rm <arquivo>
+→ Remove um arquivo e registra no próximo commit.
+
+git stash
+→ Salva temporariamente mudanças não commitadas.
 
 ##FLUXO DE TRABALHO
 1. criar o diretório (pasta) do projeto
@@ -16,4 +84,6 @@ git log > mostra todos os históricos de commit
 8. git status
 9. bolta para o passo 3.
 
-git
+atualizado teste main
+atualizado teste teste01.
+atualizando teste02.
