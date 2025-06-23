@@ -22,4 +22,8 @@ Copiar
 Editar
 git push origin --delete nome-da-branch
 
-[Curso Git 2025] https://www.youtube.com/watch?v=M-mBmYj7Jh4
+[Curso Git 2025] (https://www.youtube.com/watch?v=M-mBmYj7Jh4)
+
+Se liga no nosso canal do youtube e também no site
+
+[teomewhy.org](https://teomewhy.org/schedule)
